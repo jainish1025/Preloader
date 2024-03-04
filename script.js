@@ -102,7 +102,7 @@ gsap.to(".loading-screen",{
 
 gsap.to(".h1", 1.5,{
     delay: 7,
-    y: 50,
+    y: -80,
     ease: "power4.inOut",
     stagger:{
         amount: 0.1,
