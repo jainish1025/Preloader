@@ -100,9 +100,9 @@ gsap.to(".loading-screen",{
     ease: "power1.inOut",
 })
 
-gsap.to("h1", 1.5,{
+gsap.to(".h1", 1.5,{
     delay: 7,
-    y: -80,
+    y: 50,
     ease: "power4.inOut",
     stagger:{
         amount: 0.1,
